@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    gap: 15px;
+    margin: 100px auto;
+    border: 2px dashed pink;
+    width: fit-content;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+}
+
+.Light{
+    background-color: white;
+    color: black;
+}
+.Dark{
+    background-color: black;
+    color: white;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+#Id{
+    display: none;
+}
