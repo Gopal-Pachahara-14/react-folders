@@ -1,0 +1,6 @@
+git init 
+git add .
+git commit -m "message"
+git branch -M main ==> Because by default git create master branch when we initialize git
+git pull origin main --rebase ==> to download latest changes 
+git push origin main
